@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+body { 
+    margin:0px; 
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+a{
+    color: #223883;;
+    text-decoration: none;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
+
+#bar {
+    text-indent: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    color: white;
+    background-image: linear-gradient(to right, #223883 , #57628c);
+
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20pt;
+}
+
+iframe{
+    float: left;
+    margin:0px 15px 15px 10px;
+}
+
+#ifclist{
+
+    display:flex;
+    height: 665px;
+    min-width: 20px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+    color: #223883;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 14pt;
+}
+
+.header1 {
+
+    display:flex;
+    min-width: 20px;
+    margin-right: 10px;
+    background-color: #57628c;
+    padding: 10px 0px 10px 15px;
+    color: white;
+    font-weight: 500;
+}
+
+#ifclist ul {
+    list-style-type: none;
+
+}
+
+#ifclist li {
+    margin-bottom:20px;
+}
+
+.active a{
+    font-weight: 300;
+}
+
+.getButtons{
+
+    float:right;
+    margin-left: 35px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 9px;
+    transition-duration: 0.4s;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #223883;
+    outline:none;
+}
+
+.getButtons:hover {
+    background-color:#3f5394;
+    color: white;
+}
+
+.highlightButtons{
+
+    float:right;
+    margin-left: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 9px;
+    transition-duration: 0.4s;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: white;
+    color: #223883;
+    outline:none;
+}
+
+.highlightButtons:hover {
+    background-color:#3f5394;
+    color: white;
+}
+
+#333{
+    clear:both;
+    background-color: #eeeeee;
+    align-self: center;
+    clear:both;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#footer{
+    background-color: #eeeeee;
+    align-self: center;
+    clear:both;
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    
+}
+
+#footer_trim{
+    clear:both;
+    height:25px;
+    padding-top: 7px;
+    margin:0px;
+    background-image: linear-gradient(to right, #223883 , #57628c);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+}
+
+#lockButton {
+
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 80px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #223883; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 12px 10px 12px; /* Some padding */
+    border-radius: 50%;
+    font-size: 12px; /* Increase font size */
+    outline:none;
+  }
+
+#lockButton:checked{
+    background-color: white;
+    color:#223883;
+}
+
+.iframeButton {
+
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #223883; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px 11px 10px 11px; /* Some padding */
+    border-radius: 50%;
+    font-size: 12px; /* Increase font size */
+    outline:none;
+  }
+
+#copyright{
+    font-weight: 300;
+    font-size: 10pt;
+
+}
